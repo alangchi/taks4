@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+:focus {
+    outline: 0 none;
+}
+ol, ul {
+    list-style: outside none none;
+}
+caption {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a img {
+    border: 0 none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+a, a:hover {
+    text-decoration: none;
+}
+body {
+    font-family: "ヒラガナ角ゴ PronN W3","Hiragino Kaku Gothic ProN",Verdana,Roboto,"Droid Sans","遊ゴシック",YuGothic,"メイリオ",Meiryo,sans-serif;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+    color: #333;
+    border-top: 10px solid #c7000b;
+    text-align: center;
+}
+input, select, textarea{
+    -webkit-appearance: none;
+     border-radius: 0;
+     box-sizing: border-box;
+     
+}
+input[type="text"], select, textarea{
+    
+}
+a, p{
+	word-break: break-all;
+}
+/*------------header---------------*/
+header{
+    
+}
+
+/*------------container-----------*/
+.container{
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+    width: 981px;
+    min-width: 981px;
+    padding: 0 10px;
+    position: relative;
+}
+
+/*-----------footer-------------*/
+footer{
+
+}
